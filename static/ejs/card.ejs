@@ -1,0 +1,56 @@
+<!-- card.ejs -->
+<div class="clase  clase--<%= estado %>">
+
+  <h3 class="clase__titulo">Clase <%= correlativo %>: <%= titulo %>
+  </h3>
+
+  <div class="clase-variables">
+    <div class="clase-variables__item">
+      <span class="clase-variables__nombre">Estado:</span>
+      <span class="clase-variables__valor"><%= estado %></span>
+    </div>
+    <div class="clase-variables__item">
+      <span class="clase-variables__nombre">Fecha:</span>
+      <span class="clase-variables__valor"><%= fecha %></span>
+    </div>
+    <div class="clase-variables__item">
+      <span class="clase-variables__nombre">Modalidad:</span>
+      <span class="clase-variables__valor"><%= modalidad %></span>
+    </div>
+  </div>
+
+  <div class="clase__recursos">
+
+    <% if (bloques.length) { %>
+      <% bloques.forEach((bloque, i)=> { %>
+        <a href="<%= bloque %>" target="_blank" class="clase__enlace">
+          <i class="fa-solid fa-building-columns"></i>
+          <span>Clase virtual: Bloque <%= i+1 %></span>
+        </a>
+      <% }) %>
+    <% } %>
+
+    <% if (ayudantia) { %>
+      <a href="<%= ayudantia %>" target="_blank" class="clase__enlace">
+        <i class="fa-solid fa-hand-holding-hand"></i>
+        <span>Ayudantía</span>
+      </a>
+    <% } %>
+
+  </div>
+
+  <div class="clase__importante">
+
+    <a href="<%= diapositiva %>" target="_blank" class="clase__enlace clase__enlace--diapositiva">
+      <i class="fa-regular fa-file-powerpoint"></i>
+      <span>Diapositiva</span>
+    </a>
+
+    <a href="<%= formulario %>" target="_blank" class="clase__enlace clase__enlace--tarea">
+      <i class="fa-regular fa-pen-to-square"></i>
+      <span>Entregar tarea</span>
+    </a>
+
+  </div>
+
+</div>
