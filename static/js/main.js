@@ -1,5 +1,5 @@
 async function fetchData() {
-  const response = await fetch("/static/json/contenido.json");
+  const response = await fetch("static/json/contenido.json");
   const data = await response.json();
   return data;
 }
