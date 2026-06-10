@@ -1,7 +1,11 @@
 <!-- card.ejs -->
-<div class="clase  clase--<%= estado %>">
+<article class="clase  clase--<%= estado %>">
 
-  <h3 class="clase__titulo">Clase <%= correlativo %>: <%= titulo %>
+  <div class="clase__titular">
+    <h3 class="clase__titulo">Clase <%= correlativo %>: <%= titulo %></h3>
+    <img class="clase__icono" src="static/img/<%= icono %>">
+  </div>
+
   </h3>
 
   <div class="clase-variables">
@@ -18,6 +22,8 @@
       <span class="clase-variables__valor"><%= modalidad %></span>
     </div>
   </div>
+
+  
 
   <div class="clase__recursos">
 
@@ -39,6 +45,7 @@
 
   </div>
 
+
   <div class="clase__importante">
 
     <a href="<%= diapositiva %>" target="_blank" class="clase__enlace clase__enlace--diapositiva">
@@ -53,4 +60,4 @@
 
   </div>
 
-</div>
+</article>

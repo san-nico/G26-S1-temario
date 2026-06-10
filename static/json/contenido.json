@@ -1,70 +1,95 @@
 {
-    "diapositivas":{
-        "1":"https://docs.google.com/presentation/d/1Q63pd1wftlnprjuGJJPEhjCHfLd-lS4FGtzNpGB3Sa8/edit?usp=sharing",
-        "2":"https://docs.google.com/presentation/d/1gJDVBcDQLiICs71V5t55iv4oB5KmE0e-OZWei54Rh-s/edit?usp=sharing",
-        "3":"https://docs.google.com/presentation/d/19NFYeLuWMAbsdasQUCfslDS_DH2-2q2YUddii-bNiNE/edit?usp=sharing",
-        "4":"https://docs.google.com/presentation/d/1a2J2-eYHNcrR9WT_42iir_BieusdSzUXiXfnsrLLTew/edit?usp=sharing",
-        "5":"https://docs.google.com/presentation/d/1n-Bu_ctEMCZuRhDNiH-MrobC895PR2T2D_Qf4_5gjG8/edit?usp=sharing",
-        "6":"https://docs.google.com/presentation/d/1pUGps9tiABDDyNsYDyu1r8QsFYc4jfpdgjuAeyEaXg8/edit?usp=sharing",
-        "7":"https://docs.google.com/presentation/d/1sVF7WCLJ82DDA452L88zx7OOCynlXSIyCGrPL6t-2ds/edit?usp=sharing"
+    "diapositivas": {
+        "1": "https://docs.google.com/presentation/d/1Q63pd1wftlnprjuGJJPEhjCHfLd-lS4FGtzNpGB3Sa8/edit?usp=sharing",
+        "2": "https://docs.google.com/presentation/d/1gJDVBcDQLiICs71V5t55iv4oB5KmE0e-OZWei54Rh-s/edit?usp=sharing",
+        "3": "https://docs.google.com/presentation/d/19NFYeLuWMAbsdasQUCfslDS_DH2-2q2YUddii-bNiNE/edit?usp=sharing",
+        "4": "https://docs.google.com/presentation/d/1a2J2-eYHNcrR9WT_42iir_BieusdSzUXiXfnsrLLTew/edit?usp=sharing",
+        "5": "https://docs.google.com/presentation/d/1n-Bu_ctEMCZuRhDNiH-MrobC895PR2T2D_Qf4_5gjG8/edit?usp=sharing",
+        "6": "https://docs.google.com/presentation/d/1pUGps9tiABDDyNsYDyu1r8QsFYc4jfpdgjuAeyEaXg8/edit?usp=sharing",
+        "7": "https://docs.google.com/presentation/d/1sVF7WCLJ82DDA452L88zx7OOCynlXSIyCGrPL6t-2ds/edit?usp=sharing"
     },
-    "titulos":{
-        "1":"Fundamentos",
-        "2":"Selectores, Especificidad y Variables CSS",
-        "3":"Layouts Pro: Flexbox y CSS Grid (Virtual)",
-        "4":"Introducción a Javascript",
-        "5":"Primeros pasos con JS - Parte 01",
-        "6":"JS Fundamentos II: Funciones y Arreglos",
-        "7":"Funciones, API’S, Manejo de Errores"
+    "titulos": {
+        "1": "HTML5 Semántico y Fundamentos de CSS",
+        "2": "Selectores, Especificidad y Variables CSS",
+        "3": "Layouts Pro: Flexbox y CSS Grid",
+        "4": "Responsive Design y Metodología BEM",
+        "5": "JS Fundamentos I: Lógica y Scope",
+        "6": "JS Fundamentos II: Funciones y Arreglos",
+        "7": "Manipulación del DOM y Eventos",
+        "8": "Asincronía: Promesas y Fetch API",
+        "9": "Introducción a React.js y JSX",
+        "10": "Manejo de Estado: useState",
+        "11": "Efectos y Ciclo de Vida: useEffect",
+        "12": "Navegación con React Router",
+        "13": "Next.js: App Router y Arquitectura",
+        "14": "Optimización, SEO y Deployment",
+        "15": "Integración de Datos y Testing",
+        "16": "DEMO DAY: Presentación de Proyectos"
     },
-    "formularios":{
-        "1":"https://softwarelibrechile.cl/G25-S1-01-Tarea",
-        "2":"https://softwarelibrechile.cl/G25-S1-02-Tarea",
-        "3":"https://softwarelibrechile.cl/G25-S1-03-Tarea",
-        "4":"https://softwarelibrechile.cl/G25-S1-04-Tarea",
-        "5":"https://softwarelibrechile.cl/G25-S1-05-Tarea",
-        "6":"https://softwarelibrechile.cl/G25-S1-06-Tarea",
-        "7":"https://softwarelibrechile.cl/G25-S1-07-Tarea"
+    "formularios": {
+        "1": "https://softwarelibrechile.cl/G25-S1-01-Tarea",
+        "2": "https://softwarelibrechile.cl/G25-S1-02-Tarea",
+        "3": "https://softwarelibrechile.cl/G25-S1-03-Tarea",
+        "4": "https://softwarelibrechile.cl/G25-S1-04-Tarea",
+        "5": "https://softwarelibrechile.cl/G25-S1-05-Tarea",
+        "6": "https://softwarelibrechile.cl/G25-S1-06-Tarea",
+        "7": "https://softwarelibrechile.cl/G25-S1-07-Tarea"
     },
-    "fechas":{
-        "1":"18-04-2026",
-        "2":"25-04-2026",
-        "3":"02-05-2026",
-        "4":"09-05-2026",
-        "5":"23-05-2026",
-        "6":"30-05-2026",
-        "7":"06-06-2026"
+    "fechas": {
+        "1": "18-04-2026",
+        "2": "25-04-2026",
+        "3": "02-05-2026",
+        "4": "09-05-2026",
+        "5": "23-05-2026",
+        "6": "30-05-2026",
+        "7": "06-06-2026"
     },
-    "modalidades":{
-        "1":"presencial",
-        "2":"presencial",
-        "3":"virtual",
-        "4":"presencial",
-        "5":"virtual",
-        "6":"presencial",
-        "7":"presencial"
+    "modalidades": {
+        "1": "presencial",
+        "2": "presencial",
+        "3": "virtual",
+        "4": "presencial",
+        "5": "virtual",
+        "6": "presencial",
+        "7": "presencial"
     },
-    "bloques":{
-        "1":[],
-        "2":[],
-        "3":[
+    "bloques": {
+        "1": [],
+        "2": [],
+        "3": [
             "https://drive.google.com/file/d/1iIsgjK6QhsSviorgP_h4G5TNzFhH958F/view?usp=sharing",
             "https://drive.google.com/file/d/1gkzI_-fTD30BVMB4JP5m-9ybEoKb-xsS/view?usp=sharing"
-
         ],
-        "4":[],
-        "5":[
+        "4": [],
+        "5": [
             "https://drive.google.com/file/d/1RQdx16o6o_G4ykGOaz7ThfvHTRlsmI7q/view?usp=sharing",
             "https://drive.google.com/file/d/1GJrdESRPCpTeFRywVTvt4XyyAOyBFX6Q/view?usp=sharing"
         ],
-        "6":[],
-        "7":[]
+        "6": [],
+        "7": []
     },
-    "ayudantias":{
-        "1":"https://drive.google.com/file/d/1cdu6Yjl9cbFR3NJKLJRZ68OvsAItA8N4/view?usp=sharing",
-        "2":"https://drive.google.com/file/d/1SVilJjSIcZFUCHJBfTrIUIU4dTZ1qV4y/view?usp=sharing",
-        "4":"https://drive.google.com/file/d/1T4PuGRgGqKghnGinG5ScweBNLKvHnt2z/view?usp=sharing",
-        "6":"https://drive.google.com/file/d/1w_QV4QKSZhJ5BBqQ91np-Enk3Hziyme2/view?usp=sharing"
-
+    "ayudantias": {
+        "1": "https://drive.google.com/file/d/1cdu6Yjl9cbFR3NJKLJRZ68OvsAItA8N4/view?usp=sharing",
+        "2": "https://drive.google.com/file/d/1SVilJjSIcZFUCHJBfTrIUIU4dTZ1qV4y/view?usp=sharing",
+        "4": "https://drive.google.com/file/d/1T4PuGRgGqKghnGinG5ScweBNLKvHnt2z/view?usp=sharing",
+        "6": "https://drive.google.com/file/d/1w_QV4QKSZhJ5BBqQ91np-Enk3Hziyme2/view?usp=sharing"
+    },
+    "iconos": {
+        "1": "html5.png",
+        "2": "css.png",
+        "3": "flex.png",
+        "4": "bem.png",
+        "5": "js1.png",
+        "6": "js2.png",
+        "7": "js3.png",
+        "8": "fetch.png",
+        "9": "react.png",
+        "10": "useeffect.png",
+        "11": "fx.png",
+        "12": "route.png",
+        "13": "next.png",
+        "14": "grid.png",
+        "15": "cohete1.png",
+        "16": "cohete2.png"
     }
 }

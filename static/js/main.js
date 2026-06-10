@@ -29,6 +29,7 @@ function generarClases(data) {
       correlativo: id,
       id: id,
       titulo: data.titulos[id] || "",
+      icono: data.iconos[id] || "",
       diapositiva: data.diapositivas[id] || "",
       formulario: data.formularios[id] || "",
       fecha: fechaStr,
@@ -71,13 +72,24 @@ async function main() {
   const datosJSON = await fetchData();
   const listaClases = generarClases(datosJSON);
 
-  // Cargar template como texto
-  const templateText = await (await fetch("/static/ejs/card.ejs")).text();
+  // Cargar ambos templates como texto
+  const [templateNormal, templateFutura] = await Promise.all([
+    (await fetch("/static/ejs/card.ejs")).text(),
+    (await fetch("/static/ejs/card-futura.ejs")).text(),
+  ]);
 
-  // Renderizar todas las clases directamente
-  holder.innerHTML = listaClases
-    .map((clase) => ejs.render(templateText, clase))
-    .join("");
+  // Renderizar todas las clases con el template correspondiente
+holder.innerHTML = listaClases
+  .map((clase) => {
+    if (clase.estado === "futuro" || clase.estado === "sin_fecha") {
+      return ejs.render(templateFutura, clase);
+    } else {
+      return ejs.render(templateNormal, clase);
+    }
+  })
+  .join("");
+
 }
+
 
 main();
