@@ -74,8 +74,8 @@ async function main() {
 
   // Cargar ambos templates como texto
   const [templateNormal, templateFutura] = await Promise.all([
-    (await fetch("/static/ejs/card.ejs")).text(),
-    (await fetch("/static/ejs/card-futura.ejs")).text(),
+    (await fetch("static/ejs/card.ejs")).text(),
+    (await fetch("static/ejs/card-futura.ejs")).text(),
   ]);
 
   // Renderizar todas las clases con el template correspondiente
