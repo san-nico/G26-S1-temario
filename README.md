@@ -1,2 +1,2 @@
-# G25-S1-temario
+# G26-S1-temario
 Temario del curso de frontend USACH
