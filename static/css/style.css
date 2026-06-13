@@ -29,9 +29,14 @@ i{
     width:1.2rem;
     display:none;
 }
-.titular{
+.presentacion{
+    display:grid;
+    justify-content: center;
     text-align: center;
-    padding:var(--gap-1);
+    gap:var(--gap-2);
+    padding:var(--gap-2);
+}
+.titular{
     font-size: 2rem;
     font-weight: bold;
 }
